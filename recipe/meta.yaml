@@ -1,5 +1,5 @@
 {% set name = "ipygraphql" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 39f92d5c7e76412b2a00ca72e1f973a3f89b14687685dabe5891fe5e404b3b8c
+  sha256: cb4b4e17e061afd9b68c87c688a3ce6203ecc18241ae3726a5c130dc660051e0
 
 build:
   noarch: python
